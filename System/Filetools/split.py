@@ -28,6 +28,7 @@ def split(fromfile, todir, chunksize=chunksize):
     assert partnum <= 9999
     return partnum
 
+
 if __name__ == '__main__':
     if len(sys.argv) == 2 and sys.argv[1] == '-help':
         print('Use: split.py [file-to-split target-dir [chunksize]]')
